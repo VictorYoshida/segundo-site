@@ -9,6 +9,7 @@
 }
 html{
   font-size: 62.5%;
+  scroll-padding-top: 80px;
 }
 body{
   width: 100%;
@@ -258,5 +259,20 @@ span{
 .menu-toggle: :checked ~ nav{
   display: block;
 }
+
+.blocos h3{
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  border-left: 5px solid blue;
+  padding-left: 1.5rem;
+  color:rgb(51, 11, 233)
+}
+.blocos p{
+  font-size: 1.8rem;
+  line-height: 1.7;
+  color: white;
+}
+
+
 
 
